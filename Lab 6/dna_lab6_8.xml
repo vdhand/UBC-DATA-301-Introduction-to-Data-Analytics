@@ -1,0 +1,1443 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.8.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_160313</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>307</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_160313</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>307</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|112950124|gb|DQ843602.1|</Hit_id>
+  <Hit_def>Vitis vinifera GDP-D-mannose pyrophosphorylase mRNA, partial cds</Hit_def>
+  <Hit_accession>DQ843602</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>554.921</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>4.10907e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1104563616|ref|XM_002282386.3|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera mannose-1-phosphate guanylyltransferase 1 (LOC100233006), mRNA</Hit_def>
+  <Hit_accession>XM_002282386</Hit_accession>
+  <Hit_len>1838</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>2.12855e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>1329</Hsp_hit-from>
+      <Hsp_hit-to>1635</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTTGGCCAGTGGGCTCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|349725850|emb|FQ393802.1|</Hit_id>
+  <Hit_def>Vitis vinifera clone SS0AFA24YC05</Hit_def>
+  <Hit_accession>FQ393802</Hit_accession>
+  <Hit_len>1531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>2.12855e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>1046</Hsp_hit-from>
+      <Hsp_hit-to>1352</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTTGGCCAGTGGGCTCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|349724361|emb|FQ393311.1|</Hit_id>
+  <Hit_def>Vitis vinifera clone SS0AFA26YK13</Hit_def>
+  <Hit_accession>FQ393311</Hit_accession>
+  <Hit_len>1535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>2.12855e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>1045</Hsp_hit-from>
+      <Hsp_hit-to>1351</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTTGGCCAGTGGGCTCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|349719056|emb|FQ392581.1|</Hit_id>
+  <Hit_def>Vitis vinifera clone SS0AFA5YB15</Hit_def>
+  <Hit_accession>FQ392581</Hit_accession>
+  <Hit_len>1530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>2.12855e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>1045</Hsp_hit-from>
+      <Hsp_hit-to>1351</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTTGGCCAGTGGGCTCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|349709384|emb|FQ385554.1|</Hit_id>
+  <Hit_def>Vitis vinifera clone SS0AEB31YN17</Hit_def>
+  <Hit_accession>FQ385554</Hit_accession>
+  <Hit_len>1534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>2.12855e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>1045</Hsp_hit-from>
+      <Hsp_hit-to>1351</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTTGGCCAGTGGGCTCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123698130|emb|AM460409.1|</Hit_id>
+  <Hit_def>Vitis vinifera, whole genome shotgun sequence, contig VV78X135834.21, clone ENTAV 115</Hit_def>
+  <Hit_accession>AM460409</Hit_accession>
+  <Hit_len>100416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.904</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>2.12855e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>11319</Hsp_hit-from>
+      <Hsp_hit-to>11625</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTTGGCCAGTGGGCTCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|349717356|emb|FQ397356.1|</Hit_id>
+  <Hit_def>Vitis vinifera clone SS0AEB7YB08</Hit_def>
+  <Hit_accession>FQ397356</Hit_accession>
+  <Hit_len>1540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.443</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>1.25808e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>1044</Hsp_hit-from>
+      <Hsp_hit-to>1350</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTTGGCCAGTGGGCTCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAAGGGGGGCGTTGTTTTGCCTCACAAAGAGATCAAATCTAGCTTCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCCCACTGGGTGGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1216282852|ref|XM_021770383.1|</Hit_id>
+  <Hit_def>PREDICTED: Manihot esculenta mannose-1-phosphate guanylyltransferase 1 (LOC110624923), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_021770383</Hit_accession>
+  <Hit_len>1502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.415</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>1.10652e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>892</Hsp_hit-from>
+      <Hsp_hit-to>1108</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCGTGGAGTTCGCATCAAGAAGCATGCTTGCATATCCAGCAGCATCATAGGGTGGCACTCCACTGTTGGCCAATGGGCTCGTGTGGAAAACATGACGATCCTCGGAGAAGATGTCCATGTTTGTGATGAAATTTACAGCAATGGGGGTGTGGTTTTGCCTCACAAAGAGATCAAGTCGAGCATTTTGAAGCCAGAGATAGTAATGTGAG</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| ||||||||||||||||| ||||| ||||| |||||||| ||||||||||||||||| ||||| ||||| |||||||| |||||||| || || ||||||||||| ||||| ||||||||||| ||||||||||| || || ||| ||||||||||||||||||| || ||||| ||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1217025182|ref|XM_021796638.1|</Hit_id>
+  <Hit_def>PREDICTED: Hevea brasiliensis mannose-1-phosphate guanylyltransferase 1-like (LOC110644036), mRNA</Hit_def>
+  <Hit_accession>XM_021796638</Hit_accession>
+  <Hit_len>1799</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.612</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>3.86213e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1231</Hsp_hit-from>
+      <Hsp_hit-to>1454</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAG</Hsp_qseq>
+      <Hsp_hseq>ACCGTGATGCGTGGAGTTCGCATCAAGAAGCACGCTTGCATTTCTAGCAGCATCATAGGGTGGCACTCCACTGTTGGCCAATGGGCTCGTGTGGAAAACATGACAATCCTTGGAGAAGATGTCCATGTATGCGATGAAATTTACAGCAATGGGGGTGTGGTTTTGCCTCACAAAGAGATCAAATCAAGCATTTTGAAGCCAGAGATAGTTATGTGAGGGAACAG</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| |||||||||||||| || ||||| || || |||||||| ||||||||||||||||| ||||| ||||| |||||||| |||||||| || |||||||||||||| ||||| || |||||||| ||||||||||| || || ||| |||||||||||||||||||||| ||||| ||||||||||||||||| |||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1216282854|ref|XM_021770385.1|</Hit_id>
+  <Hit_def>PREDICTED: Manihot esculenta mannose-1-phosphate guanylyltransferase 1 (LOC110624923), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_021770385</Hit_accession>
+  <Hit_len>1288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.612</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>3.86213e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1073</Hsp_hit-from>
+      <Hsp_hit-to>1288</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCGTGGAGTTCGCATCAAGAAGCATGCTTGCATATCCAGCAGCATCATAGGGTGGCACTCCACTGTTGGCCAATGGGCTCGTGTGGAAAACATGACGATCCTCGGAGAAGATGTCCATGTTTGTGATGAAATTTACAGCAATGGGGGTGTGGTTTTGCCTCACAAAGAGATCAAGTCGAGCATTTTGAAGCCAGAGATAGTAATGTGA</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| ||||||||||||||||| ||||| ||||| |||||||| ||||||||||||||||| ||||| ||||| |||||||| |||||||| || || ||||||||||| ||||| ||||||||||| ||||||||||| || || ||| ||||||||||||||||||| || ||||| ||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1216268793|ref|XM_021762958.1|</Hit_id>
+  <Hit_def>PREDICTED: Manihot esculenta mannose-1-phosphate guanylyltransferase 1-like (LOC110619478), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_021762958</Hit_accession>
+  <Hit_len>1506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.612</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>3.86213e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>867</Hsp_hit-from>
+      <Hsp_hit-to>1090</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAG</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCGTGGGGTTCGCATCAAGAAGCATGCTTGCATTTCTAGCAGCATCATAGGGTGGCACTCCACTGTTGGTCAATGGGCTCGTGTGGAAAACATGACAATCCTTGGAGAAGATGTCCATGTATGCGATGAAATTTACAGCAATGGAGGTGTGGTTTTGCCTCACAAAGAGATCAAATCAAGCATTTTGAAGCCAGAGATAGTAATGTGAGGGAACAG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| || ||||||||||||||||| ||||| || || |||||||| ||||||||||||||||| || || ||||| |||||||| |||||||| || |||||||||||||| ||||| || |||||||| |||||||||||||| || ||| |||||||||||||||||||||| ||||| ||||||||||||||||| |||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1216268791|ref|XM_021762957.1|</Hit_id>
+  <Hit_def>PREDICTED: Manihot esculenta mannose-1-phosphate guanylyltransferase 1-like (LOC110619478), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_021762957</Hit_accession>
+  <Hit_len>1681</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.612</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>3.86213e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1042</Hsp_hit-from>
+      <Hsp_hit-to>1265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAG</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCGTGGGGTTCGCATCAAGAAGCATGCTTGCATTTCTAGCAGCATCATAGGGTGGCACTCCACTGTTGGTCAATGGGCTCGTGTGGAAAACATGACAATCCTTGGAGAAGATGTCCATGTATGCGATGAAATTTACAGCAATGGAGGTGTGGTTTTGCCTCACAAAGAGATCAAATCAAGCATTTTGAAGCCAGAGATAGTAATGTGAGGGAACAG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| || ||||||||||||||||| ||||| || || |||||||| ||||||||||||||||| || || ||||| |||||||| |||||||| || |||||||||||||| ||||| || |||||||| |||||||||||||| || ||| |||||||||||||||||||||| ||||| ||||||||||||||||| |||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1216268789|ref|XM_021762956.1|</Hit_id>
+  <Hit_def>PREDICTED: Manihot esculenta mannose-1-phosphate guanylyltransferase 1-like (LOC110619478), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_021762956</Hit_accession>
+  <Hit_len>1694</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.612</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>3.86213e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1055</Hsp_hit-from>
+      <Hsp_hit-to>1278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAG</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCGTGGGGTTCGCATCAAGAAGCATGCTTGCATTTCTAGCAGCATCATAGGGTGGCACTCCACTGTTGGTCAATGGGCTCGTGTGGAAAACATGACAATCCTTGGAGAAGATGTCCATGTATGCGATGAAATTTACAGCAATGGAGGTGTGGTTTTGCCTCACAAAGAGATCAAATCAAGCATTTTGAAGCCAGAGATAGTAATGTGAGGGAACAG</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| || ||||||||||||||||| ||||| || || |||||||| ||||||||||||||||| || || ||||| |||||||| |||||||| || |||||||||||||| ||||| || |||||||| |||||||||||||| || ||| |||||||||||||||||||||| ||||| ||||||||||||||||| |||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1227899033|ref|XM_022052907.1|</Hit_id>
+  <Hit_def>PREDICTED: Carica papaya mannose-1-phosphate guanylyltransferase 1 (LOC110822708), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_022052907</Hit_accession>
+  <Hit_len>1616</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.005</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>4.70504e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1020</Hsp_hit-from>
+      <Hsp_hit-to>1236</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCACGCATGCATATCTAGCAGTATCATCGGATGGCACTGCACTGTTGGGCAATGGGCCCGTGTAGAGAACATGACCATTCTCGGCGAAGATGTTCATGTATGCGATGAAATTTACAGCAACGGAGGCGTAGTCCTACCCCACAAAGAGATCAAGTCTAGCATTTTGAAGCCAGAGATTGTCATGTGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| |||||||| || || || |||||||| ||||||| |||||| || || ||||||||||| |||||||||||||| || || |||||||||||||| || |||||||| |||||||| |||||||| || || || |||||||||||||| |||||||| |||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1227899031|ref|XM_022052898.1|</Hit_id>
+  <Hit_def>PREDICTED: Carica papaya mannose-1-phosphate guanylyltransferase 1 (LOC110822708), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_022052898</Hit_accession>
+  <Hit_len>1513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.005</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>4.70504e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>917</Hsp_hit-from>
+      <Hsp_hit-to>1133</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCACGCATGCATATCTAGCAGTATCATCGGATGGCACTGCACTGTTGGGCAATGGGCCCGTGTAGAGAACATGACCATTCTCGGCGAAGATGTTCATGTATGCGATGAAATTTACAGCAACGGAGGCGTAGTCCTACCCCACAAAGAGATCAAGTCTAGCATTTTGAAGCCAGAGATTGTCATGTGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| |||||||| || || || |||||||| ||||||| |||||| || || ||||||||||| |||||||||||||| || || |||||||||||||| || |||||||| |||||||| |||||||| || || || |||||||||||||| |||||||| |||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1227899029|ref|XM_022052891.1|</Hit_id>
+  <Hit_def>PREDICTED: Carica papaya mannose-1-phosphate guanylyltransferase 1 (LOC110822708), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_022052891</Hit_accession>
+  <Hit_len>1703</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.005</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>4.70504e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1107</Hsp_hit-from>
+      <Hsp_hit-to>1323</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCACGCATGCATATCTAGCAGTATCATCGGATGGCACTGCACTGTTGGGCAATGGGCCCGTGTAGAGAACATGACCATTCTCGGCGAAGATGTTCATGTATGCGATGAAATTTACAGCAACGGAGGCGTAGTCCTACCCCACAAAGAGATCAAGTCTAGCATTTTGAAGCCAGAGATTGTCATGTGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| |||||||| || || || |||||||| ||||||| |||||| || || ||||||||||| |||||||||||||| || || |||||||||||||| || |||||||| |||||||| |||||||| || || || |||||||||||||| |||||||| |||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1227899027|ref|XM_022052884.1|</Hit_id>
+  <Hit_def>PREDICTED: Carica papaya mannose-1-phosphate guanylyltransferase 1 (LOC110822708), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_022052884</Hit_accession>
+  <Hit_len>1527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.005</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>4.70504e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1093</Hsp_hit-from>
+      <Hsp_hit-to>1309</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCACGCATGCATATCTAGCAGTATCATCGGATGGCACTGCACTGTTGGGCAATGGGCCCGTGTAGAGAACATGACCATTCTCGGCGAAGATGTTCATGTATGCGATGAAATTTACAGCAACGGAGGCGTAGTCCTACCCCACAAAGAGATCAAGTCTAGCATTTTGAAGCCAGAGATTGTCATGTGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| |||||||| || || || |||||||| ||||||| |||||| || || ||||||||||| |||||||||||||| || || |||||||||||||| || |||||||| |||||||| |||||||| || || || |||||||||||||| |||||||| |||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1217028365|ref|XM_021798287.1|</Hit_id>
+  <Hit_def>PREDICTED: Hevea brasiliensis mannose-1-phosphate guanylyltransferase 1 (LOC110645219), mRNA</Hit_def>
+  <Hit_accession>XM_021798287</Hit_accession>
+  <Hit_len>1670</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.005</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>4.70504e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1145</Hsp_hit-from>
+      <Hsp_hit-to>1361</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCGTGGAGTTCGCATCAAGAAGCATGCCTGCATATCTGGTAGCATTATAGGGTGGCACTCCACTGTTGGCCAATGGGCTCGTGTGGAAAACATGACAATCCTTGGAGAAGATGTGCATGTATGCGATGAAATTTACAGCAATGGGGGTGTGGTTTTACCTCACAAAGAGATCAAATCAAGCATTTTGAAGCCAGAGATAGTCATGTGAG</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| ||||||||||||||||| ||||| ||  ||||||| || ||||||||||||||||| ||||| ||||| |||||||| |||||||| || |||||||||||||| ||||| || |||||||| ||||||||||| || || ||| | |||||||||||||||||||| ||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1173800419|ref|XM_012233175.2|</Hit_id>
+  <Hit_def>PREDICTED: Jatropha curcas mannose-1-phosphate guanylyltransferase 1 (LOC105647169), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_012233175</Hit_accession>
+  <Hit_len>1711</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.005</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>4.70504e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1100</Hsp_hit-from>
+      <Hsp_hit-to>1316</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCGTGGAGTGCGCATCAAGAAACATGCTTGCATATCCAGCAGCATCATCGGGTGGCACTCCACTGTTGGCCAATGGGCTCGCGTAGAAAACATGACAATTCTTGGAGAAGATGTTCATGTATGCGATGAAATATACAGCAATGGGGGTGTTGTTTTGCCCCACAAGGAGATCAAATCAAGCATTTTGAAGCCGGAGATAGTTATGTGAG</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||||| ||||| ||||| ||||| |||||||||||||||||||||||||| ||||| ||||| || || || |||||||| || |||||||||||||||||||| || |||||||| ||||||||||| || |||||| |||| ||||| ||||||||||| ||||| |||||||| |||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1173800416|ref|XM_012233171.2|</Hit_id>
+  <Hit_def>PREDICTED: Jatropha curcas mannose-1-phosphate guanylyltransferase 1 (LOC105647169), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_012233171</Hit_accession>
+  <Hit_len>1677</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.005</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>4.70504e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1066</Hsp_hit-from>
+      <Hsp_hit-to>1282</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCGTGGAGTGCGCATCAAGAAACATGCTTGCATATCCAGCAGCATCATCGGGTGGCACTCCACTGTTGGCCAATGGGCTCGCGTAGAAAACATGACAATTCTTGGAGAAGATGTTCATGTATGCGATGAAATATACAGCAATGGGGGTGTTGTTTTGCCCCACAAGGAGATCAAATCAAGCATTTTGAAGCCGGAGATAGTTATGTGAG</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||||||||||||||| ||||| ||||| ||||| |||||||||||||||||||||||||| ||||| ||||| || || || |||||||| || |||||||||||||||||||| || |||||||| ||||||||||| || |||||| |||| ||||| ||||||||||| ||||| |||||||| |||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1279041177|ref|XM_023024955.1|</Hit_id>
+  <Hit_def>PREDICTED: Olea europaea var. sylvestris mannose-1-phosphate guanylyltransferase 1 (LOC111397989), mRNA</Hit_def>
+  <Hit_accession>XM_023024955</Hit_accession>
+  <Hit_len>1936</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.202</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>1.64222e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1650</Hsp_hit-from>
+      <Hsp_hit-to>1865</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAGTAATGCGAGGTGTCCGCATTAAGAAACATGCTTGCATTTCGAGTAGCATCATTGGCTGGCACTCGACTGTTGGGCAGTGGGCTCGTGTGGAGAACATGACTATCCTTGGAGAAGATGTTCATGTTGGTGATGAAATATACAGCAATGGAGGCGTGGTTTTGCCTCACAAAGAGATCAAATCTAGCATTTTGAAGCCAGAGATTGTAATGTGA</Hsp_hseq>
+      <Hsp_midline>||||| ||||| || || ||||| ||||| ||||| ||||| || ||||||||||| || |||||||| ||||| || |||||||| ||||||||||||||||| || ||||||||||||||||||||  |||||||||| ||||||||||||||||| ||| |||||||||||||||||||||||||||| |||||||||||||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|697651839|dbj|AB924379.1|</Hit_id>
+  <Hit_def>Moringa oleifera VTC1 mRNA for GDP-mannose pyrophosphorylase, partial cds</Hit_def>
+  <Hit_accession>AB924379</Hit_accession>
+  <Hit_len>1306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.202</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>1.64222e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>816</Hsp_hit-from>
+      <Hsp_hit-to>1031</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTCCGTATCAAGAAGCACGCATGTATATCCAGCAGCATCATCGGATGGCACTCCACTGTTGGGCAATGGGCACGTGTGGAAAACATGACTATTCTGGGTGAAGATGTTCATGTATGTGATGAAATTTACAGCAATGGAGGAGTAGTTCTGCCCCACAAAGAGATAAAATCTAGCATTCTGAAGCCAGAAATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| || ||||||||||| ||||| || ||||| ||||||||||| |||||||||||||| || || ||||| |||||||| |||||||| || || || |||||||||||||| ||||||||||| |||||||||||||| || |||||||| ||||||||||| |||||||||||  |||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1344072427|ref|XM_024064261.1|</Hit_id>
+  <Hit_def>PREDICTED: Quercus suber mannose-1-phosphate guanylyltransferase 1 (LOC112031576), mRNA</Hit_def>
+  <Hit_accession>XM_024064261</Hit_accession>
+  <Hit_len>1881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.398</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>5.73191e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1397</Hsp_hit-from>
+      <Hsp_hit-to>1613</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACGGTAATGCGGGGAGTCCGCATCAAGAAGCATGCTTGCATTTCCAGCAGCATCATTGGCTGGCACTCCACTGTTGGGCAATGGGCCCGTGTGGAGAACATGACCATTCTTGGTGAAGATGTACATGTGTGTGATGAAATTTACAGTAATGGTGGTGTGGTTTTGCCCCACAAAGAGATCAAAGCGAGCATTTTGAAGCCAGAGATAGTAATGTGAG</Hsp_hseq>
+      <Hsp_midline>|| || ||||| ||||| ||||||||||||||||| ||||| ||||| |||||||| || |||||||||||||| || || |||||||||||||||||||||||||| ||||| |||||||| ||||||||||||||||| ||||| ||||| || || ||| |||| ||||||||||||||| | ||||| ||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1204925781|ref|XM_021440285.1|</Hit_id>
+  <Hit_def>PREDICTED: Herrania umbratica mannose-1-phosphate guanylyltransferase 1 (LOC110425382), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_021440285</Hit_accession>
+  <Hit_len>1662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.595</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>2.00063e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1120</Hsp_hit-from>
+      <Hsp_hit-to>1335</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAGTCATGCGTGGAGTTCGCATCAAGAAGCACGCCTGCATATCCAGCAGCATCATCGGATGGCACTCCACCGTTGGGCAATGGGCTCGTGTAGAGAACATGACCATCCTCGGAGAAGATGTCCACGTATGCGATGAAATTTACAGCAACGGCGGGGTGGTTCTGCCTCACAAAGAGATCAAGTCTAGCATTTTGAAGCCAGAGATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| |||||||||||||| || ||||| ||||| ||||||||||| ||||||||||| || || || ||||| ||||| |||||||||||||| || ||||||||||| || || || |||||||| |||||||| || || || ||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1204925779|ref|XM_021440284.1|</Hit_id>
+  <Hit_def>PREDICTED: Herrania umbratica mannose-1-phosphate guanylyltransferase 1 (LOC110425382), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_021440284</Hit_accession>
+  <Hit_len>1674</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.595</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>2.00063e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1132</Hsp_hit-from>
+      <Hsp_hit-to>1347</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAGTCATGCGTGGAGTTCGCATCAAGAAGCACGCCTGCATATCCAGCAGCATCATCGGATGGCACTCCACCGTTGGGCAATGGGCTCGTGTAGAGAACATGACCATCCTCGGAGAAGATGTCCACGTATGCGATGAAATTTACAGCAACGGCGGGGTGGTTCTGCCTCACAAAGAGATCAAGTCTAGCATTTTGAAGCCAGAGATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| |||||||||||||| || ||||| ||||| ||||||||||| ||||||||||| || || || ||||| ||||| |||||||||||||| || ||||||||||| || || || |||||||| |||||||| || || || ||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1109255339|ref|XM_019296015.1|</Hit_id>
+  <Hit_def>PREDICTED: Ipomoea nil mannose-1-phosphate guanylyltransferase 1 (LOC109148178), mRNA</Hit_def>
+  <Hit_accession>XM_019296015</Hit_accession>
+  <Hit_len>1738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.595</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>2.00063e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1279</Hsp_hit-from>
+      <Hsp_hit-to>1494</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACTGTCATGCGTGGAGTGCGCATCAAGAAGCATGCTTGCGTCTCAAGCAGCATTATCGGGTGGCACTCCACTGTCGGGCAATGGGCCCGCGTGGAGAACATGACCATCCTCGGGGAGGATGTTCATGTCTGCGATGAAATTTACAGCAACGGGGGCGTGGTTTTGCCCCACAAAGAGATCAAATCCAGCATCCTGAAGCCGGAGATAGTGATGTGA</Hsp_hseq>
+      <Hsp_midline>|| || ||||||||||||||||||||||||||||| ||| |||| || ||||| ||||||||||||||||||||||| || |||||||| ||||||||||||||||| || || || ||||||||||| || |||||||| |||||||| || ||||| ||| |||| ||||||||||||||||| |||||| ||||||| |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1269995856|ref|XM_022891003.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus mannose-1-phosphate guanylyltransferase 1-like (LOC111296607), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_022891003</Hit_accession>
+  <Hit_len>1744</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1231</Hsp_hit-from>
+      <Hsp_hit-to>1446</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAATGATGCGCGGAGTCCGCGTCAAGAAGCACGCTTGCATATCCAGCAGCATCATCGGATGGCACTCCACGGTTGGCCAATGGGCGCGAGTAGAAAACATGACTATCCTCGGAGAAGATGTCCATGTATGCGATGAAATTTACAGCAATGGCGGCGTGGTTTTGCCTCACAAAGAGATCAAATCTAGCATTTTGAAGCCAGAGATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||| ||||||| ||||| ||| |||||||||| || ||||| ||||| ||||||||||| ||||||||||| || ||||| ||||| || || || |||||||| || || ||||||||||| ||||| || |||||||| ||||||||||| ||||| ||| |||||||||||||||||||||||||||| ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1269995854|ref|XM_022891002.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus mannose-1-phosphate guanylyltransferase 1-like (LOC111296607), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_022891002</Hit_accession>
+  <Hit_len>1671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1241</Hsp_hit-from>
+      <Hsp_hit-to>1456</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAATGATGCGCGGAGTCCGCGTCAAGAAGCACGCTTGCATATCCAGCAGCATCATCGGATGGCACTCCACGGTTGGCCAATGGGCGCGAGTAGAAAACATGACTATCCTCGGAGAAGATGTCCATGTATGCGATGAAATTTACAGCAATGGCGGCGTGGTTTTGCCTCACAAAGAGATCAAATCTAGCATTTTGAAGCCAGAGATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||| ||||||| ||||| ||| |||||||||| || ||||| ||||| ||||||||||| ||||||||||| || ||||| ||||| || || || |||||||| || || ||||||||||| ||||| || |||||||| ||||||||||| ||||| ||| |||||||||||||||||||||||||||| ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1269995852|ref|XM_022891001.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus mannose-1-phosphate guanylyltransferase 1-like (LOC111296607), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_022891001</Hit_accession>
+  <Hit_len>1754</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1241</Hsp_hit-from>
+      <Hsp_hit-to>1456</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAATGATGCGCGGAGTCCGCGTCAAGAAGCACGCTTGCATATCCAGCAGCATCATCGGATGGCACTCCACGGTTGGCCAATGGGCGCGAGTAGAAAACATGACTATCCTCGGAGAAGATGTCCATGTATGCGATGAAATTTACAGCAATGGCGGCGTGGTTTTGCCTCACAAAGAGATCAAATCTAGCATTTTGAAGCCAGAGATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||| ||||||| ||||| ||| |||||||||| || ||||| ||||| ||||||||||| ||||||||||| || ||||| ||||| || || || |||||||| || || ||||||||||| ||||| || |||||||| ||||||||||| ||||| ||| |||||||||||||||||||||||||||| ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1063526361|ref|XM_007009150.2|</Hit_id>
+  <Hit_def>PREDICTED: Theobroma cacao mannose-1-phosphate guanylyltransferase 1 (LOC18586025), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_007009150</Hit_accession>
+  <Hit_len>1874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1327</Hsp_hit-from>
+      <Hsp_hit-to>1542</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAGTCATGCGTGGAGTCCGCGTCAAGAAGCACGCCTGCATATCCAGCAGCATCATCGGATGGCACTCCACCATTGGGCAATGGGCTCGTGTAGAGAACATGACTATCCTCGGAGAAGATGTCCATGTATGCGATGAAATTTACAGCAACGGCGGCGTGGTTCTGCCTCACAAAGAGATCAAGTCTAGCATTTTGAAGCCAGAGATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| ||| |||||||||| || ||||| ||||| ||||||||||| |||||||||||  | || || ||||| ||||| ||||||||||| || || ||||||||||| ||||| || |||||||| |||||||| || ||||| ||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1063526360|ref|XM_007009149.2|</Hit_id>
+  <Hit_def>PREDICTED: Theobroma cacao mannose-1-phosphate guanylyltransferase 1 (LOC18586025), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_007009149</Hit_accession>
+  <Hit_len>1887</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1340</Hsp_hit-from>
+      <Hsp_hit-to>1555</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAGTCATGCGTGGAGTCCGCGTCAAGAAGCACGCCTGCATATCCAGCAGCATCATCGGATGGCACTCCACCATTGGGCAATGGGCTCGTGTAGAGAACATGACTATCCTCGGAGAAGATGTCCATGTATGCGATGAAATTTACAGCAACGGCGGCGTGGTTCTGCCTCACAAAGAGATCAAGTCTAGCATTTTGAAGCCAGAGATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| ||| |||||||||| || ||||| ||||| ||||||||||| |||||||||||  | || || ||||| ||||| ||||||||||| || || ||||||||||| ||||| || |||||||| |||||||| || ||||| ||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1052190918|ref|XM_008803415.2|</Hit_id>
+  <Hit_def>PREDICTED: Phoenix dactylifera probable mannose-1-phosphate guanylyltransferase 1 (LOC103715691), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_008803415</Hit_accession>
+  <Hit_len>1558</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1097</Hsp_hit-from>
+      <Hsp_hit-to>1312</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCATGGAGTGCGCATTAAGAAGCACGCATGCATCTCCAGTAGCATCATCGGATGGCATTCCACGGTTGGGCGGTGGTCTCGGGTTGAGAACATGACCATCCTTGGAGAGGATGTGCATGTAGGTGATGAAGTATACAGCAATGGTGGTGTTGTTCTCCCTCACAAAGAGATCAAATCTAGCATCCTGAAGCCTGAGATTGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>|| ||||||| |||||||||||| |||||||| |||||||||||||||||||||||||| ||||| ||||| || || | |||| | || || |||||||||||||| |||||||| ||||| |||||  |||||||| | ||||||||||| || |||||||| ||||||||||||||||||||||||||| ||||||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1052190916|ref|XM_017844835.1|</Hit_id>
+  <Hit_def>PREDICTED: Phoenix dactylifera probable mannose-1-phosphate guanylyltransferase 1 (LOC103715691), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_017844835</Hit_accession>
+  <Hit_len>1474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1013</Hsp_hit-from>
+      <Hsp_hit-to>1228</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCATGGAGTGCGCATTAAGAAGCACGCATGCATCTCCAGTAGCATCATCGGATGGCATTCCACGGTTGGGCGGTGGTCTCGGGTTGAGAACATGACCATCCTTGGAGAGGATGTGCATGTAGGTGATGAAGTATACAGCAATGGTGGTGTTGTTCTCCCTCACAAAGAGATCAAATCTAGCATCCTGAAGCCTGAGATTGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>|| ||||||| |||||||||||| |||||||| |||||||||||||||||||||||||| ||||| ||||| || || | |||| | || || |||||||||||||| |||||||| ||||| |||||  |||||||| | ||||||||||| || |||||||| ||||||||||||||||||||||||||| ||||||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1052190915|ref|XM_008803414.2|</Hit_id>
+  <Hit_def>PREDICTED: Phoenix dactylifera probable mannose-1-phosphate guanylyltransferase 1 (LOC103715691), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_008803414</Hit_accession>
+  <Hit_len>1564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1103</Hsp_hit-from>
+      <Hsp_hit-to>1318</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCATGGAGTGCGCATTAAGAAGCACGCATGCATCTCCAGTAGCATCATCGGATGGCATTCCACGGTTGGGCGGTGGTCTCGGGTTGAGAACATGACCATCCTTGGAGAGGATGTGCATGTAGGTGATGAAGTATACAGCAATGGTGGTGTTGTTCTCCCTCACAAAGAGATCAAATCTAGCATCCTGAAGCCTGAGATTGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>|| ||||||| |||||||||||| |||||||| |||||||||||||||||||||||||| ||||| ||||| || || | |||| | || || |||||||||||||| |||||||| ||||| |||||  |||||||| | ||||||||||| || |||||||| ||||||||||||||||||||||||||| ||||||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1052190914|ref|XM_008803413.2|</Hit_id>
+  <Hit_def>PREDICTED: Phoenix dactylifera probable mannose-1-phosphate guanylyltransferase 1 (LOC103715691), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_008803413</Hit_accession>
+  <Hit_len>1567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1106</Hsp_hit-from>
+      <Hsp_hit-to>1321</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACTGTGATGCATGGAGTGCGCATTAAGAAGCACGCATGCATCTCCAGTAGCATCATCGGATGGCATTCCACGGTTGGGCGGTGGTCTCGGGTTGAGAACATGACCATCCTTGGAGAGGATGTGCATGTAGGTGATGAAGTATACAGCAATGGTGGTGTTGTTCTCCCTCACAAAGAGATCAAATCTAGCATCCTGAAGCCTGAGATTGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>|| ||||||| |||||||||||| |||||||| |||||||||||||||||||||||||| ||||| ||||| || || | |||| | || || |||||||||||||| |||||||| ||||| |||||  |||||||| | ||||||||||| || |||||||| ||||||||||||||||||||||||||| ||||||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1042907812|emb|LT594797.1|</Hit_id>
+  <Hit_def>Theobroma cacao genome assembly, chromosome: X</Hit_def>
+  <Hit_accession>LT594797</Hit_accession>
+  <Hit_len>21822658</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1706346</Hsp_hit-from>
+      <Hsp_hit-to>1706131</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAGTCATGCGTGGAGTCCGCGTCAAGAAGCACGCCTGCATATCCAGCAGCATCATCGGATGGCACTCCACCATTGGGCAATGGGCTCGTGTAGAGAACATGACTATCCTCGGAGAAGATGTCCATGTATGCGATGAAATTTACAGCAACGGCGGCGTGGTTCTGCCTCACAAAGAGATCAAGTCTAGCATTTTGAAGCCAGAGATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| ||| |||||||||| || ||||| ||||| ||||||||||| |||||||||||  | || || ||||| ||||| ||||||||||| || || ||||||||||| ||||| || |||||||| |||||||| || ||||| ||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|349705152|emb|FQ389682.1|</Hit_id>
+  <Hit_def>Vitis vinifera clone SS0AEB1YA10 &gt;gi|349712644|emb|FQ386232.1| Vitis vinifera clone SS0AEB2YK05</Hit_def>
+  <Hit_accession>FQ389682</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.185</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>8.50691e-68</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>GTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_qseq>
+      <Hsp_hseq>GTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCAACAGTGTTCTATCACACTGCGTAGACGGTAGTTAAGTTATTTAAGTTCTTTTTTGAGTTTGGAATGTCTTTGCTCCTTCACCTATGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|568866135|ref|XM_006486355.1|</Hit_id>
+  <Hit_def>PREDICTED: Citrus sinensis probable mannose-1-phosphate guanylyltransferase 1 (LOC102608158), mRNA</Hit_def>
+  <Hit_accession>XM_006486355</Hit_accession>
+  <Hit_len>1855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.382</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>2.9692e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1286</Hsp_hit-from>
+      <Hsp_hit-to>1505</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCA</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAACATGCTTGCATATCCAGCAGTATCATTGGATGGCACTCCACTGTTGGGCAATGGGCTCGTGTAGAGAACATGACCATTCTCGGGGAAGACGTTCATGTCTGCGATGAAATTTATAGCAATGGGGGTGTGGTTTTGCCGCACAAAGAGATAAAATCAAGCATTTTGAAGCCAGAGATAGTCATGTGAGCCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||| ||||| ||||| || ||||| || |||||||||||||| || || ||||| ||||| |||||||||||||| || || ||||| |||||||| || |||||||| || |||||||| || || ||| |||| ||||||||||| ||||| ||||| ||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1269907335|ref|XM_022909368.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus mannose-1-phosphate guanylyltransferase 1 (LOC111310178), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_022909368</Hit_accession>
+  <Hit_len>1675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.578</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.03635e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1255</Hsp_hit-from>
+      <Hsp_hit-to>1470</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTTCGCATCAAGAAGCACGCTTGCATATCCAGCAGCATTATCGGATGGCACTCCACCGTTGGCCAATGGGCTCGAGTAGAGAACATGACTATACTCGGAGAAGATGTCCATGTAGGCGACGAAATTTACAGCAATGGCGGCGTGGTTTTGCCTCACAAGGAGATCAAATCAAGCATTTTGAAGCCGGAGATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||||||| || ||||| ||||| ||||| ||||| ||||||||||| || ||||| ||||| || || ||||||||||| ||||| ||||||||||| |||||  | || ||||| ||||||||||| ||||| ||| |||||||||| ||||||||||| ||||| |||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1269907333|ref|XM_022909367.1|</Hit_id>
+  <Hit_def>PREDICTED: Durio zibethinus mannose-1-phosphate guanylyltransferase 1 (LOC111310178), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_022909367</Hit_accession>
+  <Hit_len>1688</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.578</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.03635e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1268</Hsp_hit-from>
+      <Hsp_hit-to>1483</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTTCGCATCAAGAAGCACGCTTGCATATCCAGCAGCATTATCGGATGGCACTCCACCGTTGGCCAATGGGCTCGAGTAGAGAACATGACTATACTCGGAGAAGATGTCCATGTAGGCGACGAAATTTACAGCAATGGCGGCGTGGTTTTGCCTCACAAGGAGATCAAATCAAGCATTTTGAAGCCGGAGATAGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||||||| || ||||| ||||| ||||| ||||| ||||||||||| || ||||| ||||| || || ||||||||||| ||||| ||||||||||| |||||  | || ||||| ||||||||||| ||||| ||| |||||||||| ||||||||||| ||||| |||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1050583728|ref|XM_017757553.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium arboreum probable mannose-1-phosphate guanylyltransferase 3 (LOC108458238), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_017757553</Hit_accession>
+  <Hit_len>2506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.578</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.03635e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>2048</Hsp_hit-from>
+      <Hsp_hit-to>2263</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACCGTGATGCGTGGAGTTCGCATCAAGAAGCACGCTTGCATATCAAGCAGCATCATTGGATGGCACTCCACTGTCGGCCAATGGGCTCGAGTAGAGAACATGACTATACTTGGAGAAGATGTGCATGTATGTGATGAAATATATGGCAACGGTGGCGTCATTTTGCCTCACAAAGAGATCAAATCCAGCATTTTGAAGCCTGAGATTGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| |||||||||||||| || ||||| || || |||||||| || |||||||||||||||||||| ||||| || || ||||||||||| ||||||||||||||||| ||||| ||||||||||| ||  |||| || |||||  || |||||||||||||||||||||| ||||| |||||||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1050583726|ref|XM_017757552.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium arboreum probable mannose-1-phosphate guanylyltransferase 3 (LOC108458238), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_017757552</Hit_accession>
+  <Hit_len>1746</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.578</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.03635e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1288</Hsp_hit-from>
+      <Hsp_hit-to>1503</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACCGTGATGCGTGGAGTTCGCATCAAGAAGCACGCTTGCATATCAAGCAGCATCATTGGATGGCACTCCACTGTCGGCCAATGGGCTCGAGTAGAGAACATGACTATACTTGGAGAAGATGTGCATGTATGTGATGAAATATATGGCAACGGTGGCGTCATTTTGCCTCACAAAGAGATCAAATCCAGCATTTTGAAGCCTGAGATTGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| |||||||||||||| || ||||| || || |||||||| || |||||||||||||||||||| ||||| || || ||||||||||| ||||||||||||||||| ||||| ||||||||||| ||  |||| || |||||  || |||||||||||||||||||||| ||||| |||||||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1050583724|ref|XM_017757551.1|</Hit_id>
+  <Hit_def>PREDICTED: Gossypium arboreum probable mannose-1-phosphate guanylyltransferase 3 (LOC108458238), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_017757551</Hit_accession>
+  <Hit_len>1755</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.578</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.03635e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1297</Hsp_hit-from>
+      <Hsp_hit-to>1512</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGA</Hsp_qseq>
+      <Hsp_hseq>ACCGTGATGCGTGGAGTTCGCATCAAGAAGCACGCTTGCATATCAAGCAGCATCATTGGATGGCACTCCACTGTCGGCCAATGGGCTCGAGTAGAGAACATGACTATACTTGGAGAAGATGTGCATGTATGTGATGAAATATATGGCAACGGTGGCGTCATTTTGCCTCACAAAGAGATCAAATCCAGCATTTTGAAGCCTGAGATTGTCATGTGA</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| |||||||||||||| || ||||| || || |||||||| || |||||||||||||||||||| ||||| || || ||||||||||| ||||||||||||||||| ||||| ||||||||||| ||  |||| || |||||  || |||||||||||||||||||||| ||||| |||||||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1350280173|ref|XM_006435547.2|</Hit_id>
+  <Hit_def>PREDICTED: Citrus clementina probable mannose-1-phosphate guanylyltransferase 3 (LOC18044636), mRNA</Hit_def>
+  <Hit_accession>XM_006435547</Hit_accession>
+  <Hit_len>1891</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.775</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>3.61723e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1286</Hsp_hit-from>
+      <Hsp_hit-to>1505</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAGTCA</Hsp_qseq>
+      <Hsp_hseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAACATGCTTGCATATCCAGCAGTATCATTGGATGGCACTCCACTGTTGGGCAATGGGCTCGCGTAGAGAACATGACCATTCTCGGGGAAGACGTTCATGTCTGCGATGAAATTTATAGCAATGGGGGTGTGGTTTTGCCGCACAAAGAGATAAAATCAAGCATTTTGAAGCCAGAGATAGTCATGTGAGCCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| ||||| ||||| ||||| || ||||| || |||||||||||||| || || ||||| || || |||||||||||||| || || ||||| |||||||| || |||||||| || |||||||| || || ||| |||| ||||||||||| ||||| ||||| ||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1350240365|ref|XM_024164711.1|</Hit_id>
+  <Hit_def>PREDICTED: Morus notabilis mannose-1-phosphate guanylyltransferase 1 (LOC21409003), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_024164711</Hit_accession>
+  <Hit_len>1592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.971</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.26254e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1083</Hsp_hit-from>
+      <Hsp_hit-to>1299</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACTGTAATGCGTGGAGTCCGCATCAAGAAGCATGCTTGCATTTCCAGCAGTATCATTGGTTGGCACTCCACTGTTGGACAATGGGCACGTGTGGAGAACATGACTATCCTCGGAGAAGATGTCCATGTCAGTGATGAAATCTACAGCAACGGAGGTGTGGTTTTGCCGCACAAGGAGATCAAGTCTAGCATTTTGAAACCAGAGATTGTCATGTGAG</Hsp_hseq>
+      <Hsp_midline>|| || ||||||||||| ||||||||||||||||| ||||| ||||| || ||||| || |||||||||||||| || || ||||| ||||||||||||||||| || || ||||||||||| |||||  ||||||||||||||||||| ||||| || ||| |||| ||||| |||||||| |||||||| ||||| |||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1350240361|ref|XM_010096733.2|</Hit_id>
+  <Hit_def>PREDICTED: Morus notabilis mannose-1-phosphate guanylyltransferase 1 (LOC21409003), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_010096733</Hit_accession>
+  <Hit_len>1582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.971</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.26254e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1073</Hsp_hit-from>
+      <Hsp_hit-to>1289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACTGTAATGCGTGGAGTCCGCATCAAGAAGCATGCTTGCATTTCCAGCAGTATCATTGGTTGGCACTCCACTGTTGGACAATGGGCACGTGTGGAGAACATGACTATCCTCGGAGAAGATGTCCATGTCAGTGATGAAATCTACAGCAACGGAGGTGTGGTTTTGCCGCACAAGGAGATCAAGTCTAGCATTTTGAAACCAGAGATTGTCATGTGAG</Hsp_hseq>
+      <Hsp_midline>|| || ||||||||||| ||||||||||||||||| ||||| ||||| || ||||| || |||||||||||||| || || ||||| ||||||||||||||||| || || ||||||||||| |||||  ||||||||||||||||||| ||||| || ||| |||| ||||| |||||||| |||||||| ||||| |||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1009119820|ref|XM_016021103.1|</Hit_id>
+  <Hit_def>PREDICTED: Ziziphus jujuba mannose-1-phosphate guanylyltransferase 1 (LOC107413212), mRNA</Hit_def>
+  <Hit_accession>XM_016021103</Hit_accession>
+  <Hit_len>1696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.971</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.26254e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1201</Hsp_hit-from>
+      <Hsp_hit-to>1414</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGT</Hsp_qseq>
+      <Hsp_hseq>ACAGTAATGCGTGGAGTCCGCATCAAGAAGCATGCTTGCATTTCCAGCAGTATAATTGGTTGGCACTCCACTGTTGGACAATGGGCTCGTGTAGAGAACATGACTATCCTCGGAGAAGATGTCCATGTGAGTGATGAAATCTACAGCAATGGAGGTGTGGTTTTGCCCCACAAAGAGATCAAATCCAGCATTTTGAAGCCGGAAATTGTCATGT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| ||||||||||||||||| ||||| ||||| || || || || |||||||||||||| || || ||||| ||||| ||||||||||| || || ||||||||||| |||||| ||||||||||||||||||||||||| || ||| |||| ||||||||||||||||| ||||| |||||||| || || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1021312406|ref|NM_001323861.1|</Hit_id>
+  <Hit_def>Ziziphus jujuba mannose-1-phosphate guanylyltransferase 1 (LOC107413212), mRNA &gt;gi|683428023|gb|KJ934995.1| Ziziphus jujuba strain Dongzao GDP-D-mannose pyrophosphorylase (GMP) mRNA, complete cds</Hit_def>
+  <Hit_accession>NM_001323861</Hit_accession>
+  <Hit_len>1086</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.971</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.26254e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>871</Hsp_hit-from>
+      <Hsp_hit-to>1084</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>ACAGTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGT</Hsp_qseq>
+      <Hsp_hseq>ACAGTAATGCGTGGAGTCCGCATCAAGAAGCATGCTTGCATTTCCAGCAGTATAATTGGTTGGCACTCCACTGTTGGACAATGGGCTCGTGTAGAGAACATGACTATCCTCGGAGAAGATGTCCATGTGAGTGATGAAATCTACAGCAATGGAGGTGTGGTTTTGCCCCACAAAGAGATCAAATCCAGCATTTTGAAGCCGGAAATTGTCATGT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| ||||||||||||||||| ||||| ||||| || || || || |||||||||||||| || || ||||| ||||| ||||||||||| || || ||||||||||| |||||| ||||||||||||||||||||||||| || ||| |||| ||||||||||||||||| ||||| |||||||| || || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|566182605|ref|XM_002311154.2|</Hit_id>
+  <Hit_def>Populus trichocarpa cytokinesis defective 1 family protein (POPTR_0008s06050g) mRNA, complete cds</Hit_def>
+  <Hit_accession>XM_002311154</Hit_accession>
+  <Hit_len>1572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.971</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>1.26254e-65</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1055</Hsp_hit-from>
+      <Hsp_hit-to>1268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>GTGATGCGTGGAGTGCGCATCAAGAAGCATGCATGCATCTCCAGTAGCATCATCGGGTGGCACTCCACTGTCGGCCAGTGGGCCCGTGTGGAGAACATGACCATACTTGGAGAAGATGTTCATGTGTGTGATGAAATCTACAGCAATGGAGGCGTTGTTCTGCCTCACAAAGAGATCAAATCTAGCATCTTGAAGCCAGAGATAGTCATGTGAG</Hsp_qseq>
+      <Hsp_hseq>GTGATGCGTGGAGTTTACATCAAGAAGCACGCTTGCATATCTAGCAGTATCATCGGGTGGCACTCCACTGTCGGGAGATGGGCCCGTGTAGAGAACATGACAATCCTTGGAGAAGATGTCCAAGTGTGTGACGAAATTTACAGCAATGGAGGTGTGGTTTTACCCCACAAAGAGATCAAATCGAGCATCTTGAAGCCAGAGATTGTAATGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||   |||||||||||| || ||||| || || || ||||||||||||||||||||||||||    ||||||||||| ||||||||||| || |||||||||||||| || |||||||| ||||| |||||||||||||| || ||| | || ||||||||||||||||| |||||||||||||||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>46870701</Statistics_db-num>
+      <Statistics_db-len>171598911005</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
