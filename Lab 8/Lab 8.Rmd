@@ -1,0 +1,73 @@
+---
+title: "Lab 8"
+output: html_document
+name: Vic
+student number: 24283699
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+#Question 1
+```{r}
+sd <- read.csv("sensor.csv")
+head(sd, 20)
+
+sd2 <- na.omit(sd)
+sd3 <- subset(sd2, value >= 0)
+sensors_clean <- subset(sd3, value <= 100)
+
+mylist <- list(
+  nrow(sensors_clean),
+  min(sensors_clean$value),
+  mean(sensors_clean$value),
+  range(sensors_clean$value),
+  max(sensors_clean$value, sensors_clean$sensorid == 2),
+  length(subset(sensors_clean, siteid == 1, sensorid == 2))
+)
+
+mylist
+
+qplot(sensors_clean$value, geom="histogram",fill=I("green"), col=I("black"), xlab = "Sensor Value", main = "Histogram of Sensor Values") 
+
+boxplot(sensors_clean$value ~ sensors_clean$sensorid, xlab = "Sensor ID", ylab = "Reading", main = "Sensor Values by Sensor")
+```
+
+#Question 2
+
+###H0:µ < 45
+###HA:µ >= 45
+```{r}
+t.test(sensors_clean$value, mu = 45, alternative = "greater")
+```
+### Fail to reject null hypothesis. There is insufficient evidence to conclude that the mean value of all sensors is not less than 45. (P > 0.05)
+
+#Question 3
+
+###H0:mean(new_data1$value) !=  mean(new_data2)
+###HA:mean(new_data1$value) ==  mean(new_data2)
+```{r}
+new_data <- subset(sensors_clean, siteid == 1 || siteid == 2)
+new_data1 <- subset(new_data, siteid == 1)
+new_data2 <- subset(new_data, siteid == 2)
+t.test(new_data1$value,new_data2$value)
+```
+### Fail to reject null hypothesis. There is insufficient evidence to conclude that the mean value new_data1 != to mean value new_data2. (P > 0.05)
+
+#Question 4
+```{r}
+advertising <- read.csv("advertising.csv")
+tail(advertising, 15)
+
+plot(advertising$Radio, advertising$Sales) 
+plot(advertising$TV, advertising$Sales) 
+plot(advertising$Newspaper, advertising$Sales) 
+
+linmod <- lm(advertising$Sales ~ advertising$TV)
+linmod
+summary(linmod)
+
+plot(advertising$TV, advertising$Sales) 
+abline(linmod)
+```
